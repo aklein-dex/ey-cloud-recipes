@@ -8,7 +8,7 @@ ey_cloud_report "whenever" do
 end
 
 # Set your application name here
-appname = "elto_production"
+appname = "ELTO"
 
 if ['solo', 'util'].include?(node[:instance_role])
 
