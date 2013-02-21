@@ -1,0 +1,6 @@
+[submodule "ey-open-ports"]
+	path = ey-open-ports
+	url = git://github.com/jimneath/ey-open-ports.git
+[submodule "cookbooks/ey-open-ports"]
+	path = cookbooks/ey-open-ports
+	url = git://github.com/jimneath/ey-open-ports.git
