@@ -8,7 +8,7 @@
 # /home/deploy/bin/juggernaut
 # juggernaut --port 8080
 
-if ['app','app_master','solo'].include?(node[:instance_role])
+if node[:name] == 'chat' 
   install_dir = "/home/deploy/bin"
 
   ey_cloud_report "juggernaut" do
