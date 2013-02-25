@@ -1,5 +1,5 @@
-require_recipe "ey-open-ports"
-require_recipe "juggernaut"
+#require_recipe "ey-open-ports"
+#require_recipe "juggernaut"
 
 #require_recipe "whenever"
 
