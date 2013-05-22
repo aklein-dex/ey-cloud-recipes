@@ -1,5 +1,8 @@
-require_recipe "ey-open-ports"
-#require_recipe "juggernaut"
+#require_recipe "ey-open-ports" #AK: may need it to open the port, but so far I will let it commented out
+
+require_recipe "timezone" #AK: need it because it was PDT... so need to set it to UTC
+
+#require_recipe "juggernaut" # AK: we dont need it
 
 #require_recipe "whenever"
 
